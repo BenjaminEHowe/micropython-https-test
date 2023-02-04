@@ -1,0 +1,51 @@
+ESP module with ESP8266 running micropython 1.19.1, conforms to Python 3.4.0
+My MAC address is REDACTED
+Found network REDACTED
+WiFi: connecting...
+My IP address is REDACTED
+The time is 2023-02-04T23:00:09
+Connecting to https://expired.badssl.com/... connected FAIL
+Connecting to https://wrong.host.badssl.com/... connected FAIL
+Connecting to https://self-signed.badssl.com/... connected FAIL
+Connecting to https://untrusted-root.badssl.com/... connected FAIL
+Connecting to https://rc4.badssl.com/... OSError PASS
+-40
+Connecting to https://rc4-md5.badssl.com/... OSError PASS
+-40
+Connecting to https://dh480.badssl.com/... OSError PASS
+-40
+Connecting to https://dh512.badssl.com/... OSError PASS
+-40
+Connecting to https://dh1024.badssl.com/... OSError PASS
+-40
+Connecting to https://null.badssl.com/... OSError PASS
+-40
+Connecting to https://tls-v1-0.badssl.com:1010/... connected FAIL
+Connecting to https://tls-v1-1.badssl.com:1011/... connected FAIL
+Connecting to https://cbc.badssl.com/... connected FAIL
+Connecting to https://3des.badssl.com/... OSError PASS
+-40
+Connecting to https://revoked.badssl.com/... connected FAIL
+Connecting to https://pinning-test.badssl.com/... connected FAIL
+Connecting to https://no-sct.badssl.com/... connected FAIL
+Connecting to https://1000-sans.badssl.com/... TLS buffer overflow, record size: 16384 (+5)
+OSError PASS
+(-257, 'RECORD_OVERFLOW')
+Connecting to https://10000-sans.badssl.com/... TLS buffer overflow, record size: 16384 (+5)
+OSError PASS
+(-257, 'RECORD_OVERFLOW')
+Connecting to https://sha384.badssl.com/... connected PASS
+Connecting to https://sha512.badssl.com/... connected PASS
+Connecting to https://rsa8192.badssl.com/... connected PASS
+Connecting to https://no-subject.badssl.com/... connected PASS
+Connecting to https://no-common-name.badssl.com/... connected PASS
+Connecting to https://incomplete-chain.badssl.com/... connected PASS
+Connecting to https://tls-v1-2.badssl.com:1012/... connected PASS
+Connecting to https://sha256.badssl.com/... connected PASS
+Connecting to https://rsa2048.badssl.com/... connected PASS
+Connecting to https://ecc256.badssl.com/... OSError FAIL
+-40
+Connecting to https://ecc384.badssl.com/... OSError FAIL
+-40
+Connecting to https://mozilla-modern.badssl.com/... OSError FAIL
+-40
