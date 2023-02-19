@@ -1,0 +1,45 @@
+4MB/OTA module with ESP32 running micropython 1.19.1, conforms to Python 3.4.0
+My MAC address is REDACTED
+Found network REDACTED
+My IP address is REDACTED
+The time is 2023-02-19T18:02:46
+Connecting to https://expired.badssl.com/... connected FAIL
+Connecting to https://wrong.host.badssl.com/... connected FAIL
+Connecting to https://self-signed.badssl.com/... connected FAIL
+Connecting to https://untrusted-root.badssl.com/... connected FAIL
+Connecting to https://rc4.badssl.com/... OSError PASS
+(-30592, 'MBEDTLS_ERR_SSL_FATAL_ALERT_MESSAGE')
+Connecting to https://rc4-md5.badssl.com/... OSError PASS
+(-30592, 'MBEDTLS_ERR_SSL_FATAL_ALERT_MESSAGE')
+Connecting to https://dh480.badssl.com/... OSError PASS
+(-31488, 'MBEDTLS_ERR_SSL_BAD_HS_SERVER_KEY_EXCHANGE')
+Connecting to https://dh512.badssl.com/... OSError PASS
+(-31488, 'MBEDTLS_ERR_SSL_BAD_HS_SERVER_KEY_EXCHANGE')
+Connecting to https://dh1024.badssl.com/... connected FAIL
+Connecting to https://null.badssl.com/... OSError PASS
+(-30592, 'MBEDTLS_ERR_SSL_FATAL_ALERT_MESSAGE')
+Connecting to https://tls-v1-0.badssl.com:1010/... connected FAIL
+Connecting to https://tls-v1-1.badssl.com:1011/... connected FAIL
+Connecting to https://cbc.badssl.com/... connected FAIL
+Connecting to https://3des.badssl.com/... OSError PASS
+(-30592, 'MBEDTLS_ERR_SSL_FATAL_ALERT_MESSAGE')
+Connecting to https://revoked.badssl.com/... connected FAIL
+Connecting to https://pinning-test.badssl.com/... connected FAIL
+Connecting to https://no-sct.badssl.com/... connected FAIL
+Connecting to https://1000-sans.badssl.com/... OSError PASS
+(-28800, 'MBEDTLS_ERR_SSL_FEATURE_UNAVAILABLE')
+Connecting to https://10000-sans.badssl.com/... OSError PASS
+(-28800, 'MBEDTLS_ERR_SSL_FEATURE_UNAVAILABLE')
+Connecting to https://sha384.badssl.com/... connected PASS
+Connecting to https://sha512.badssl.com/... connected PASS
+Connecting to https://rsa8192.badssl.com/... OSError PASS
+(-17038, 'MBEDTLS_ERR_RSA_PUBLIC_FAILED+MBEDTLS_ERR_MPI_NOT_ACCEPTABLE')
+Connecting to https://no-subject.badssl.com/... connected PASS
+Connecting to https://no-common-name.badssl.com/... connected PASS
+Connecting to https://incomplete-chain.badssl.com/... connected PASS
+Connecting to https://tls-v1-2.badssl.com:1012/... connected PASS
+Connecting to https://sha256.badssl.com/... connected PASS
+Connecting to https://rsa2048.badssl.com/... connected PASS
+Connecting to https://ecc256.badssl.com/... connected PASS
+Connecting to https://ecc384.badssl.com/... connected PASS
+Connecting to https://mozilla-modern.badssl.com/... connected PASS
